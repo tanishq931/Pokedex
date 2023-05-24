@@ -5,7 +5,7 @@ import 'package:pokedex/textStyles/title.dart';
 
 Widget Potrait_Cont(final data){
   return Expanded(
-
+  flex: 6,
 
     child:Padding(
       padding: const EdgeInsets.all(8.0),

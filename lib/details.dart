@@ -1,4 +1,4 @@
-import 'dart:html';
+
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -34,9 +34,10 @@ class _DetailsState extends State<Details> {
           children: [
            orient==Orientation.portrait?Potrait_Cont(widget.data):Landscape(widget.data), 
             Expanded(
+              flex: 5,
               child: Column(
                 children: [
-                
+
                   TabBar(
                               indicatorWeight: 4,
                               tabs: [

@@ -1,7 +1,6 @@
 import 'dart:convert';
 
-
-import 'package:http/http.dart' as http;
+ import 'package:http/http.dart' as http;
 var url = "https://raw.githubusercontent.com/hungps/flutter_pokedex/master/assets/pokemons.json";
 
 getPoke() async{

@@ -6,7 +6,7 @@ import 'package:pokedex/textStyles/title.dart';
 Widget Landscape(final data){
   return Expanded(
 
-
+ flex: 6,
     child:Padding(
       padding: const EdgeInsets.all(8.0),
       child: Row(
@@ -40,7 +40,7 @@ Widget Landscape(final data){
               ],
             ),
           ),
-          SizedBox(height: 20,)
+
         ],
 
       ),

@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
   void initState() {
     // TODO: implement initState
     super.initState();
-    controller = AnimationController(vsync: this,duration: Duration(seconds: 1));
+    controller = AnimationController(vsync: this,duration: Duration(seconds: 2));
     animation=Tween(begin: 0.0,end: 1.0).animate(controller);
     controller.addListener(() {
       setState(() {
@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
           ),
           child: Center(child: Text('POKEDEX',
             style:   TextStyle(color: Color(0xff66FF00),
-                fontSize: 60.0*animation.value,
+                fontSize: 50.0*animation.value,
                 fontWeight: FontWeight.bold,
               fontFamily: "Pokemon"),)),
         )
